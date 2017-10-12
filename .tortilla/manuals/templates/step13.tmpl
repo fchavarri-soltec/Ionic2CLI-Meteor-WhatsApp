@@ -157,7 +157,7 @@ In order for `ufs-gridfs` to work properly on Android we need to specify how the
 
 To avoid some unexpected behaviors, we will reset our data-base so our server can re-fabricate the data:
 
-    $ npm run meteor:reset
+    $ npm run api:reset
 
 > *NOTE*: we used `$ npm run meteor:reset` instead of `api$ meteor reset` because we need to set the environmental variable to let ufs generate the right URLs during the initial importation.
 
